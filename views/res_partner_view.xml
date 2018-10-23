@@ -9,6 +9,7 @@
             <header> <field name="stage_id" widget="statusbar" clickable="True"  /></header>
         </xpath>
             <field name="function" position="before">
+                <field name="stage_id" />
                 <field name="state_contact" invisible="1"/>
                  <field name="state_target" invisible="1"/>
                  <field name="state_account" invisible="1"/>
